@@ -7,6 +7,7 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -2413,7 +2414,14 @@ input, select, textarea {
 			.image.main img {
 				width: 100%;
 			}
-
+		img.darker:hover {
+			-webkit-filter: brightness(70%);
+			-webkit-transition: all 1s ease;
+			-moz-transition: all 1s ease;
+			-o-transition: all 1s ease;
+			-ms-transition: all 1s ease;
+			transition: all 1s ease;
+		}
 /* List */
 
 	ol {
@@ -3319,7 +3327,7 @@ input, select, textarea {
 					font-size: 0.9em;
 				}
 
-		@media screen and (max-width: 736px) {
+		/*@media screen and (max-width: 736px) {
 
 			#nav {
 				display: none;
@@ -3329,7 +3337,7 @@ input, select, textarea {
 					padding-top: 0;
 				}
 
-		}
+		}*/
 
 /* Main */
 
